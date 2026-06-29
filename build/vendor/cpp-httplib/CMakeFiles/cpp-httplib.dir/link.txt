@@ -1,0 +1,2 @@
+/home/christ/miniconda3/envs/llama-build/bin/x86_64-conda-linux-gnu-ar qc libcpp-httplib.a "CMakeFiles/cpp-httplib.dir/httplib.cpp.o"
+/home/christ/miniconda3/envs/llama-build/bin/x86_64-conda-linux-gnu-ranlib libcpp-httplib.a

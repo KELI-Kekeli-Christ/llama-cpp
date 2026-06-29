@@ -1,0 +1,520 @@
+../../../bin/libggml-cuda.so.0.9.11: \
+  /home/christ/miniconda3/envs/llama-build/bin/../x86_64-conda-linux-gnu/sysroot/lib/../lib/crti.o \
+  /home/christ/miniconda3/envs/llama-build/bin/../lib/gcc/x86_64-conda-linux-gnu/15.2.0/crtbeginS.o \
+  CMakeFiles/ggml-cuda.dir/acc.cu.o \
+  CMakeFiles/ggml-cuda.dir/add-id.cu.o \
+  CMakeFiles/ggml-cuda.dir/arange.cu.o \
+  CMakeFiles/ggml-cuda.dir/argmax.cu.o \
+  CMakeFiles/ggml-cuda.dir/argsort.cu.o \
+  CMakeFiles/ggml-cuda.dir/binbcast.cu.o \
+  CMakeFiles/ggml-cuda.dir/clamp.cu.o \
+  CMakeFiles/ggml-cuda.dir/concat.cu.o \
+  CMakeFiles/ggml-cuda.dir/conv-transpose-1d.cu.o \
+  CMakeFiles/ggml-cuda.dir/conv2d-dw.cu.o \
+  CMakeFiles/ggml-cuda.dir/conv2d-transpose.cu.o \
+  CMakeFiles/ggml-cuda.dir/conv2d.cu.o \
+  CMakeFiles/ggml-cuda.dir/convert.cu.o \
+  CMakeFiles/ggml-cuda.dir/count-equal.cu.o \
+  CMakeFiles/ggml-cuda.dir/cpy.cu.o \
+  CMakeFiles/ggml-cuda.dir/cross-entropy-loss.cu.o \
+  CMakeFiles/ggml-cuda.dir/cumsum.cu.o \
+  CMakeFiles/ggml-cuda.dir/diag.cu.o \
+  CMakeFiles/ggml-cuda.dir/diagmask.cu.o \
+  CMakeFiles/ggml-cuda.dir/fattn-tile.cu.o \
+  CMakeFiles/ggml-cuda.dir/fattn-wmma-f16.cu.o \
+  CMakeFiles/ggml-cuda.dir/fattn.cu.o \
+  CMakeFiles/ggml-cuda.dir/fill.cu.o \
+  CMakeFiles/ggml-cuda.dir/gated_delta_net.cu.o \
+  CMakeFiles/ggml-cuda.dir/getrows.cu.o \
+  CMakeFiles/ggml-cuda.dir/ggml-cuda.cu.o \
+  CMakeFiles/ggml-cuda.dir/gla.cu.o \
+  CMakeFiles/ggml-cuda.dir/im2col.cu.o \
+  CMakeFiles/ggml-cuda.dir/mean.cu.o \
+  CMakeFiles/ggml-cuda.dir/mmf.cu.o \
+  CMakeFiles/ggml-cuda.dir/mmid.cu.o \
+  CMakeFiles/ggml-cuda.dir/mmq-hopper-q1.cu.o \
+  CMakeFiles/ggml-cuda.dir/mmq.cu.o \
+  CMakeFiles/ggml-cuda.dir/mmvf.cu.o \
+  CMakeFiles/ggml-cuda.dir/mmvq.cu.o \
+  CMakeFiles/ggml-cuda.dir/norm.cu.o \
+  CMakeFiles/ggml-cuda.dir/opt-step-adamw.cu.o \
+  CMakeFiles/ggml-cuda.dir/opt-step-sgd.cu.o \
+  CMakeFiles/ggml-cuda.dir/out-prod.cu.o \
+  CMakeFiles/ggml-cuda.dir/pad.cu.o \
+  CMakeFiles/ggml-cuda.dir/pad_reflect_1d.cu.o \
+  CMakeFiles/ggml-cuda.dir/pool2d.cu.o \
+  CMakeFiles/ggml-cuda.dir/quantize.cu.o \
+  CMakeFiles/ggml-cuda.dir/roll.cu.o \
+  CMakeFiles/ggml-cuda.dir/rope.cu.o \
+  CMakeFiles/ggml-cuda.dir/scale.cu.o \
+  CMakeFiles/ggml-cuda.dir/set-rows.cu.o \
+  CMakeFiles/ggml-cuda.dir/set.cu.o \
+  CMakeFiles/ggml-cuda.dir/softcap.cu.o \
+  CMakeFiles/ggml-cuda.dir/softmax.cu.o \
+  CMakeFiles/ggml-cuda.dir/solve_tri.cu.o \
+  CMakeFiles/ggml-cuda.dir/ssm-conv.cu.o \
+  CMakeFiles/ggml-cuda.dir/ssm-scan.cu.o \
+  CMakeFiles/ggml-cuda.dir/sum.cu.o \
+  CMakeFiles/ggml-cuda.dir/sumrows.cu.o \
+  CMakeFiles/ggml-cuda.dir/top-k.cu.o \
+  CMakeFiles/ggml-cuda.dir/topk-moe.cu.o \
+  CMakeFiles/ggml-cuda.dir/tri.cu.o \
+  CMakeFiles/ggml-cuda.dir/tsembd.cu.o \
+  CMakeFiles/ggml-cuda.dir/unary.cu.o \
+  CMakeFiles/ggml-cuda.dir/upscale.cu.o \
+  CMakeFiles/ggml-cuda.dir/wkv.cu.o \
+  CMakeFiles/ggml-cuda.dir/template-instances/fattn-tile-instance-dkq112-dv112.cu.o \
+  CMakeFiles/ggml-cuda.dir/template-instances/fattn-tile-instance-dkq128-dv128.cu.o \
+  CMakeFiles/ggml-cuda.dir/template-instances/fattn-tile-instance-dkq256-dv256.cu.o \
+  CMakeFiles/ggml-cuda.dir/template-instances/fattn-tile-instance-dkq40-dv40.cu.o \
+  CMakeFiles/ggml-cuda.dir/template-instances/fattn-tile-instance-dkq512-dv512.cu.o \
+  CMakeFiles/ggml-cuda.dir/template-instances/fattn-tile-instance-dkq576-dv512.cu.o \
+  CMakeFiles/ggml-cuda.dir/template-instances/fattn-tile-instance-dkq64-dv64.cu.o \
+  CMakeFiles/ggml-cuda.dir/template-instances/fattn-tile-instance-dkq72-dv72.cu.o \
+  CMakeFiles/ggml-cuda.dir/template-instances/fattn-tile-instance-dkq80-dv80.cu.o \
+  CMakeFiles/ggml-cuda.dir/template-instances/fattn-tile-instance-dkq96-dv96.cu.o \
+  CMakeFiles/ggml-cuda.dir/template-instances/fattn-mma-f16-instance-ncols1_1-ncols2_16.cu.o \
+  CMakeFiles/ggml-cuda.dir/template-instances/fattn-mma-f16-instance-ncols1_1-ncols2_32.cu.o \
+  CMakeFiles/ggml-cuda.dir/template-instances/fattn-mma-f16-instance-ncols1_1-ncols2_8.cu.o \
+  CMakeFiles/ggml-cuda.dir/template-instances/fattn-mma-f16-instance-ncols1_16-ncols2_1.cu.o \
+  CMakeFiles/ggml-cuda.dir/template-instances/fattn-mma-f16-instance-ncols1_16-ncols2_2.cu.o \
+  CMakeFiles/ggml-cuda.dir/template-instances/fattn-mma-f16-instance-ncols1_16-ncols2_4.cu.o \
+  CMakeFiles/ggml-cuda.dir/template-instances/fattn-mma-f16-instance-ncols1_2-ncols2_16.cu.o \
+  CMakeFiles/ggml-cuda.dir/template-instances/fattn-mma-f16-instance-ncols1_2-ncols2_32.cu.o \
+  CMakeFiles/ggml-cuda.dir/template-instances/fattn-mma-f16-instance-ncols1_2-ncols2_4.cu.o \
+  CMakeFiles/ggml-cuda.dir/template-instances/fattn-mma-f16-instance-ncols1_2-ncols2_8.cu.o \
+  CMakeFiles/ggml-cuda.dir/template-instances/fattn-mma-f16-instance-ncols1_32-ncols2_1.cu.o \
+  CMakeFiles/ggml-cuda.dir/template-instances/fattn-mma-f16-instance-ncols1_32-ncols2_2.cu.o \
+  CMakeFiles/ggml-cuda.dir/template-instances/fattn-mma-f16-instance-ncols1_4-ncols2_16.cu.o \
+  CMakeFiles/ggml-cuda.dir/template-instances/fattn-mma-f16-instance-ncols1_4-ncols2_2.cu.o \
+  CMakeFiles/ggml-cuda.dir/template-instances/fattn-mma-f16-instance-ncols1_4-ncols2_4.cu.o \
+  CMakeFiles/ggml-cuda.dir/template-instances/fattn-mma-f16-instance-ncols1_4-ncols2_8.cu.o \
+  CMakeFiles/ggml-cuda.dir/template-instances/fattn-mma-f16-instance-ncols1_64-ncols2_1.cu.o \
+  CMakeFiles/ggml-cuda.dir/template-instances/fattn-mma-f16-instance-ncols1_8-ncols2_1.cu.o \
+  CMakeFiles/ggml-cuda.dir/template-instances/fattn-mma-f16-instance-ncols1_8-ncols2_2.cu.o \
+  CMakeFiles/ggml-cuda.dir/template-instances/fattn-mma-f16-instance-ncols1_8-ncols2_4.cu.o \
+  CMakeFiles/ggml-cuda.dir/template-instances/fattn-mma-f16-instance-ncols1_8-ncols2_8.cu.o \
+  CMakeFiles/ggml-cuda.dir/template-instances/mmq-instance-iq1_s.cu.o \
+  CMakeFiles/ggml-cuda.dir/template-instances/mmq-instance-iq2_s.cu.o \
+  CMakeFiles/ggml-cuda.dir/template-instances/mmq-instance-iq2_xs.cu.o \
+  CMakeFiles/ggml-cuda.dir/template-instances/mmq-instance-iq2_xxs.cu.o \
+  CMakeFiles/ggml-cuda.dir/template-instances/mmq-instance-iq3_s.cu.o \
+  CMakeFiles/ggml-cuda.dir/template-instances/mmq-instance-iq3_xxs.cu.o \
+  CMakeFiles/ggml-cuda.dir/template-instances/mmq-instance-iq4_nl.cu.o \
+  CMakeFiles/ggml-cuda.dir/template-instances/mmq-instance-iq4_xs.cu.o \
+  CMakeFiles/ggml-cuda.dir/template-instances/mmq-instance-mxfp4.cu.o \
+  CMakeFiles/ggml-cuda.dir/template-instances/mmq-instance-nvfp4.cu.o \
+  CMakeFiles/ggml-cuda.dir/template-instances/mmq-instance-q1_0.cu.o \
+  CMakeFiles/ggml-cuda.dir/template-instances/mmq-instance-q2_0.cu.o \
+  CMakeFiles/ggml-cuda.dir/template-instances/mmq-instance-q2_k.cu.o \
+  CMakeFiles/ggml-cuda.dir/template-instances/mmq-instance-q3_k.cu.o \
+  CMakeFiles/ggml-cuda.dir/template-instances/mmq-instance-q4_0.cu.o \
+  CMakeFiles/ggml-cuda.dir/template-instances/mmq-instance-q4_1.cu.o \
+  CMakeFiles/ggml-cuda.dir/template-instances/mmq-instance-q4_k.cu.o \
+  CMakeFiles/ggml-cuda.dir/template-instances/mmq-instance-q5_0.cu.o \
+  CMakeFiles/ggml-cuda.dir/template-instances/mmq-instance-q5_1.cu.o \
+  CMakeFiles/ggml-cuda.dir/template-instances/mmq-instance-q5_k.cu.o \
+  CMakeFiles/ggml-cuda.dir/template-instances/mmq-instance-q6_k.cu.o \
+  CMakeFiles/ggml-cuda.dir/template-instances/mmq-instance-q8_0.cu.o \
+  CMakeFiles/ggml-cuda.dir/template-instances/mmf-instance-ncols_1.cu.o \
+  CMakeFiles/ggml-cuda.dir/template-instances/mmf-instance-ncols_10.cu.o \
+  CMakeFiles/ggml-cuda.dir/template-instances/mmf-instance-ncols_11.cu.o \
+  CMakeFiles/ggml-cuda.dir/template-instances/mmf-instance-ncols_12.cu.o \
+  CMakeFiles/ggml-cuda.dir/template-instances/mmf-instance-ncols_13.cu.o \
+  CMakeFiles/ggml-cuda.dir/template-instances/mmf-instance-ncols_14.cu.o \
+  CMakeFiles/ggml-cuda.dir/template-instances/mmf-instance-ncols_15.cu.o \
+  CMakeFiles/ggml-cuda.dir/template-instances/mmf-instance-ncols_16.cu.o \
+  CMakeFiles/ggml-cuda.dir/template-instances/mmf-instance-ncols_2.cu.o \
+  CMakeFiles/ggml-cuda.dir/template-instances/mmf-instance-ncols_3.cu.o \
+  CMakeFiles/ggml-cuda.dir/template-instances/mmf-instance-ncols_4.cu.o \
+  CMakeFiles/ggml-cuda.dir/template-instances/mmf-instance-ncols_5.cu.o \
+  CMakeFiles/ggml-cuda.dir/template-instances/mmf-instance-ncols_6.cu.o \
+  CMakeFiles/ggml-cuda.dir/template-instances/mmf-instance-ncols_7.cu.o \
+  CMakeFiles/ggml-cuda.dir/template-instances/mmf-instance-ncols_8.cu.o \
+  CMakeFiles/ggml-cuda.dir/template-instances/mmf-instance-ncols_9.cu.o \
+  CMakeFiles/ggml-cuda.dir/template-instances/fattn-vec-instance-f16-f16.cu.o \
+  CMakeFiles/ggml-cuda.dir/template-instances/fattn-vec-instance-q4_0-q4_0.cu.o \
+  CMakeFiles/ggml-cuda.dir/template-instances/fattn-vec-instance-q8_0-q8_0.cu.o \
+  CMakeFiles/ggml-cuda.dir/template-instances/fattn-vec-instance-bf16-bf16.cu.o \
+  ../../../bin/libggml-base.so.0.9.11 \
+  /home/christ/miniconda3/envs/llama-build/lib/libcudart.so \
+  /home/christ/miniconda3/envs/llama-build/lib/libcublas.so \
+  /home/christ/miniconda3/envs/llama-build/targets/x86_64-linux/lib/stubs/libcuda.so \
+  /home/christ/miniconda3/envs/llama-build/lib/libcublasLt.so \
+  /home/christ/miniconda3/envs/llama-build/bin/../x86_64-conda-linux-gnu/sysroot/lib/../lib/libdl.a \
+  /home/christ/miniconda3/envs/llama-build/x86_64-conda-linux-gnu/sysroot/usr/lib/librt.a \
+  /home/christ/miniconda3/envs/llama-build/lib/libcudadevrt.a \
+  /home/christ/miniconda3/envs/llama-build/lib/libcudart_static.a \
+  /home/christ/miniconda3/envs/llama-build/bin/../x86_64-conda-linux-gnu/sysroot/lib/../lib/librt.a \
+  /home/christ/miniconda3/envs/llama-build/bin/../x86_64-conda-linux-gnu/sysroot/lib/../lib/libpthread.a \
+  /home/christ/miniconda3/envs/llama-build/bin/../x86_64-conda-linux-gnu/sysroot/lib/../lib/libdl.a \
+  /home/christ/miniconda3/envs/llama-build/lib/libstdc++.so \
+  /home/christ/miniconda3/envs/llama-build/bin/../x86_64-conda-linux-gnu/sysroot/lib/../lib/libm.so \
+  /home/christ/miniconda3/envs/llama-build/bin/../x86_64-conda-linux-gnu/sysroot/lib/../lib/libm.so \
+  /home/christ/miniconda3/envs/llama-build/bin/../x86_64-conda-linux-gnu/sysroot/lib/../lib/libm.so \
+  /home/christ/miniconda3/envs/llama-build/bin/../x86_64-conda-linux-gnu/sysroot/lib64/libm.so.6 \
+  /home/christ/miniconda3/envs/llama-build/bin/../x86_64-conda-linux-gnu/sysroot/lib64/libmvec.so.1 \
+  /home/christ/miniconda3/envs/llama-build/lib/libgcc_s.so \
+  /home/christ/miniconda3/envs/llama-build/lib/libgcc_s.so \
+  /home/christ/miniconda3/envs/llama-build/lib/libgcc_s.so \
+  /home/christ/miniconda3/envs/llama-build/lib/libgcc_s.so.1 \
+  /home/christ/miniconda3/envs/llama-build/bin/../lib/gcc/x86_64-conda-linux-gnu/15.2.0/libgcc.a \
+  /home/christ/miniconda3/envs/llama-build/bin/../x86_64-conda-linux-gnu/sysroot/lib/../lib/libc.so \
+  /home/christ/miniconda3/envs/llama-build/bin/../x86_64-conda-linux-gnu/sysroot/lib/../lib/libc.so \
+  /home/christ/miniconda3/envs/llama-build/bin/../x86_64-conda-linux-gnu/sysroot/lib/../lib/libc.so \
+  /home/christ/miniconda3/envs/llama-build/bin/../x86_64-conda-linux-gnu/sysroot/lib64/libc.so.6 \
+  /home/christ/miniconda3/envs/llama-build/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib64/libc_nonshared.a \
+  /home/christ/miniconda3/envs/llama-build/bin/../x86_64-conda-linux-gnu/sysroot/lib64/ld-linux-x86-64.so.2 \
+  /home/christ/miniconda3/envs/llama-build/lib/libgcc_s.so \
+  /home/christ/miniconda3/envs/llama-build/lib/libgcc_s.so \
+  /home/christ/miniconda3/envs/llama-build/lib/libgcc_s.so \
+  /home/christ/miniconda3/envs/llama-build/lib/libgcc_s.so.1 \
+  /home/christ/miniconda3/envs/llama-build/bin/../lib/gcc/x86_64-conda-linux-gnu/15.2.0/libgcc.a \
+  /home/christ/miniconda3/envs/llama-build/bin/../lib/gcc/x86_64-conda-linux-gnu/15.2.0/crtendS.o \
+  /home/christ/miniconda3/envs/llama-build/bin/../x86_64-conda-linux-gnu/sysroot/lib/../lib/crtn.o
+
+/home/christ/miniconda3/envs/llama-build/bin/../x86_64-conda-linux-gnu/sysroot/lib/../lib/crti.o:
+
+/home/christ/miniconda3/envs/llama-build/bin/../lib/gcc/x86_64-conda-linux-gnu/15.2.0/crtbeginS.o:
+
+CMakeFiles/ggml-cuda.dir/acc.cu.o:
+
+CMakeFiles/ggml-cuda.dir/add-id.cu.o:
+
+CMakeFiles/ggml-cuda.dir/arange.cu.o:
+
+CMakeFiles/ggml-cuda.dir/argmax.cu.o:
+
+CMakeFiles/ggml-cuda.dir/argsort.cu.o:
+
+CMakeFiles/ggml-cuda.dir/binbcast.cu.o:
+
+CMakeFiles/ggml-cuda.dir/clamp.cu.o:
+
+CMakeFiles/ggml-cuda.dir/concat.cu.o:
+
+CMakeFiles/ggml-cuda.dir/conv-transpose-1d.cu.o:
+
+CMakeFiles/ggml-cuda.dir/conv2d-dw.cu.o:
+
+CMakeFiles/ggml-cuda.dir/conv2d-transpose.cu.o:
+
+CMakeFiles/ggml-cuda.dir/conv2d.cu.o:
+
+CMakeFiles/ggml-cuda.dir/convert.cu.o:
+
+CMakeFiles/ggml-cuda.dir/count-equal.cu.o:
+
+CMakeFiles/ggml-cuda.dir/cpy.cu.o:
+
+CMakeFiles/ggml-cuda.dir/cross-entropy-loss.cu.o:
+
+CMakeFiles/ggml-cuda.dir/cumsum.cu.o:
+
+CMakeFiles/ggml-cuda.dir/diag.cu.o:
+
+CMakeFiles/ggml-cuda.dir/diagmask.cu.o:
+
+CMakeFiles/ggml-cuda.dir/fattn-tile.cu.o:
+
+CMakeFiles/ggml-cuda.dir/fattn-wmma-f16.cu.o:
+
+CMakeFiles/ggml-cuda.dir/fattn.cu.o:
+
+CMakeFiles/ggml-cuda.dir/fill.cu.o:
+
+CMakeFiles/ggml-cuda.dir/gated_delta_net.cu.o:
+
+CMakeFiles/ggml-cuda.dir/getrows.cu.o:
+
+CMakeFiles/ggml-cuda.dir/ggml-cuda.cu.o:
+
+CMakeFiles/ggml-cuda.dir/gla.cu.o:
+
+CMakeFiles/ggml-cuda.dir/im2col.cu.o:
+
+CMakeFiles/ggml-cuda.dir/mean.cu.o:
+
+CMakeFiles/ggml-cuda.dir/mmf.cu.o:
+
+CMakeFiles/ggml-cuda.dir/mmid.cu.o:
+
+CMakeFiles/ggml-cuda.dir/mmq-hopper-q1.cu.o:
+
+CMakeFiles/ggml-cuda.dir/mmq.cu.o:
+
+CMakeFiles/ggml-cuda.dir/mmvf.cu.o:
+
+CMakeFiles/ggml-cuda.dir/mmvq.cu.o:
+
+CMakeFiles/ggml-cuda.dir/norm.cu.o:
+
+CMakeFiles/ggml-cuda.dir/opt-step-adamw.cu.o:
+
+CMakeFiles/ggml-cuda.dir/opt-step-sgd.cu.o:
+
+CMakeFiles/ggml-cuda.dir/out-prod.cu.o:
+
+CMakeFiles/ggml-cuda.dir/pad.cu.o:
+
+CMakeFiles/ggml-cuda.dir/pad_reflect_1d.cu.o:
+
+CMakeFiles/ggml-cuda.dir/pool2d.cu.o:
+
+CMakeFiles/ggml-cuda.dir/quantize.cu.o:
+
+CMakeFiles/ggml-cuda.dir/roll.cu.o:
+
+CMakeFiles/ggml-cuda.dir/rope.cu.o:
+
+CMakeFiles/ggml-cuda.dir/scale.cu.o:
+
+CMakeFiles/ggml-cuda.dir/set-rows.cu.o:
+
+CMakeFiles/ggml-cuda.dir/set.cu.o:
+
+CMakeFiles/ggml-cuda.dir/softcap.cu.o:
+
+CMakeFiles/ggml-cuda.dir/softmax.cu.o:
+
+CMakeFiles/ggml-cuda.dir/solve_tri.cu.o:
+
+CMakeFiles/ggml-cuda.dir/ssm-conv.cu.o:
+
+CMakeFiles/ggml-cuda.dir/ssm-scan.cu.o:
+
+CMakeFiles/ggml-cuda.dir/sum.cu.o:
+
+CMakeFiles/ggml-cuda.dir/sumrows.cu.o:
+
+CMakeFiles/ggml-cuda.dir/top-k.cu.o:
+
+CMakeFiles/ggml-cuda.dir/topk-moe.cu.o:
+
+CMakeFiles/ggml-cuda.dir/tri.cu.o:
+
+CMakeFiles/ggml-cuda.dir/tsembd.cu.o:
+
+CMakeFiles/ggml-cuda.dir/unary.cu.o:
+
+CMakeFiles/ggml-cuda.dir/upscale.cu.o:
+
+CMakeFiles/ggml-cuda.dir/wkv.cu.o:
+
+CMakeFiles/ggml-cuda.dir/template-instances/fattn-tile-instance-dkq112-dv112.cu.o:
+
+CMakeFiles/ggml-cuda.dir/template-instances/fattn-tile-instance-dkq128-dv128.cu.o:
+
+CMakeFiles/ggml-cuda.dir/template-instances/fattn-tile-instance-dkq256-dv256.cu.o:
+
+CMakeFiles/ggml-cuda.dir/template-instances/fattn-tile-instance-dkq40-dv40.cu.o:
+
+CMakeFiles/ggml-cuda.dir/template-instances/fattn-tile-instance-dkq512-dv512.cu.o:
+
+CMakeFiles/ggml-cuda.dir/template-instances/fattn-tile-instance-dkq576-dv512.cu.o:
+
+CMakeFiles/ggml-cuda.dir/template-instances/fattn-tile-instance-dkq64-dv64.cu.o:
+
+CMakeFiles/ggml-cuda.dir/template-instances/fattn-tile-instance-dkq72-dv72.cu.o:
+
+CMakeFiles/ggml-cuda.dir/template-instances/fattn-tile-instance-dkq80-dv80.cu.o:
+
+CMakeFiles/ggml-cuda.dir/template-instances/fattn-tile-instance-dkq96-dv96.cu.o:
+
+CMakeFiles/ggml-cuda.dir/template-instances/fattn-mma-f16-instance-ncols1_1-ncols2_16.cu.o:
+
+CMakeFiles/ggml-cuda.dir/template-instances/fattn-mma-f16-instance-ncols1_1-ncols2_32.cu.o:
+
+CMakeFiles/ggml-cuda.dir/template-instances/fattn-mma-f16-instance-ncols1_1-ncols2_8.cu.o:
+
+CMakeFiles/ggml-cuda.dir/template-instances/fattn-mma-f16-instance-ncols1_16-ncols2_1.cu.o:
+
+CMakeFiles/ggml-cuda.dir/template-instances/fattn-mma-f16-instance-ncols1_16-ncols2_2.cu.o:
+
+CMakeFiles/ggml-cuda.dir/template-instances/fattn-mma-f16-instance-ncols1_16-ncols2_4.cu.o:
+
+CMakeFiles/ggml-cuda.dir/template-instances/fattn-mma-f16-instance-ncols1_2-ncols2_16.cu.o:
+
+CMakeFiles/ggml-cuda.dir/template-instances/fattn-mma-f16-instance-ncols1_2-ncols2_32.cu.o:
+
+CMakeFiles/ggml-cuda.dir/template-instances/fattn-mma-f16-instance-ncols1_2-ncols2_4.cu.o:
+
+CMakeFiles/ggml-cuda.dir/template-instances/fattn-mma-f16-instance-ncols1_2-ncols2_8.cu.o:
+
+CMakeFiles/ggml-cuda.dir/template-instances/fattn-mma-f16-instance-ncols1_32-ncols2_1.cu.o:
+
+CMakeFiles/ggml-cuda.dir/template-instances/fattn-mma-f16-instance-ncols1_32-ncols2_2.cu.o:
+
+CMakeFiles/ggml-cuda.dir/template-instances/fattn-mma-f16-instance-ncols1_4-ncols2_16.cu.o:
+
+CMakeFiles/ggml-cuda.dir/template-instances/fattn-mma-f16-instance-ncols1_4-ncols2_2.cu.o:
+
+CMakeFiles/ggml-cuda.dir/template-instances/fattn-mma-f16-instance-ncols1_4-ncols2_4.cu.o:
+
+CMakeFiles/ggml-cuda.dir/template-instances/fattn-mma-f16-instance-ncols1_4-ncols2_8.cu.o:
+
+CMakeFiles/ggml-cuda.dir/template-instances/fattn-mma-f16-instance-ncols1_64-ncols2_1.cu.o:
+
+CMakeFiles/ggml-cuda.dir/template-instances/fattn-mma-f16-instance-ncols1_8-ncols2_1.cu.o:
+
+CMakeFiles/ggml-cuda.dir/template-instances/fattn-mma-f16-instance-ncols1_8-ncols2_2.cu.o:
+
+CMakeFiles/ggml-cuda.dir/template-instances/fattn-mma-f16-instance-ncols1_8-ncols2_4.cu.o:
+
+CMakeFiles/ggml-cuda.dir/template-instances/fattn-mma-f16-instance-ncols1_8-ncols2_8.cu.o:
+
+CMakeFiles/ggml-cuda.dir/template-instances/mmq-instance-iq1_s.cu.o:
+
+CMakeFiles/ggml-cuda.dir/template-instances/mmq-instance-iq2_s.cu.o:
+
+CMakeFiles/ggml-cuda.dir/template-instances/mmq-instance-iq2_xs.cu.o:
+
+CMakeFiles/ggml-cuda.dir/template-instances/mmq-instance-iq2_xxs.cu.o:
+
+CMakeFiles/ggml-cuda.dir/template-instances/mmq-instance-iq3_s.cu.o:
+
+CMakeFiles/ggml-cuda.dir/template-instances/mmq-instance-iq3_xxs.cu.o:
+
+CMakeFiles/ggml-cuda.dir/template-instances/mmq-instance-iq4_nl.cu.o:
+
+CMakeFiles/ggml-cuda.dir/template-instances/mmq-instance-iq4_xs.cu.o:
+
+CMakeFiles/ggml-cuda.dir/template-instances/mmq-instance-mxfp4.cu.o:
+
+CMakeFiles/ggml-cuda.dir/template-instances/mmq-instance-nvfp4.cu.o:
+
+CMakeFiles/ggml-cuda.dir/template-instances/mmq-instance-q1_0.cu.o:
+
+CMakeFiles/ggml-cuda.dir/template-instances/mmq-instance-q2_0.cu.o:
+
+CMakeFiles/ggml-cuda.dir/template-instances/mmq-instance-q2_k.cu.o:
+
+CMakeFiles/ggml-cuda.dir/template-instances/mmq-instance-q3_k.cu.o:
+
+CMakeFiles/ggml-cuda.dir/template-instances/mmq-instance-q4_0.cu.o:
+
+CMakeFiles/ggml-cuda.dir/template-instances/mmq-instance-q4_1.cu.o:
+
+CMakeFiles/ggml-cuda.dir/template-instances/mmq-instance-q4_k.cu.o:
+
+CMakeFiles/ggml-cuda.dir/template-instances/mmq-instance-q5_0.cu.o:
+
+CMakeFiles/ggml-cuda.dir/template-instances/mmq-instance-q5_1.cu.o:
+
+CMakeFiles/ggml-cuda.dir/template-instances/mmq-instance-q5_k.cu.o:
+
+CMakeFiles/ggml-cuda.dir/template-instances/mmq-instance-q6_k.cu.o:
+
+CMakeFiles/ggml-cuda.dir/template-instances/mmq-instance-q8_0.cu.o:
+
+CMakeFiles/ggml-cuda.dir/template-instances/mmf-instance-ncols_1.cu.o:
+
+CMakeFiles/ggml-cuda.dir/template-instances/mmf-instance-ncols_10.cu.o:
+
+CMakeFiles/ggml-cuda.dir/template-instances/mmf-instance-ncols_11.cu.o:
+
+CMakeFiles/ggml-cuda.dir/template-instances/mmf-instance-ncols_12.cu.o:
+
+CMakeFiles/ggml-cuda.dir/template-instances/mmf-instance-ncols_13.cu.o:
+
+CMakeFiles/ggml-cuda.dir/template-instances/mmf-instance-ncols_14.cu.o:
+
+CMakeFiles/ggml-cuda.dir/template-instances/mmf-instance-ncols_15.cu.o:
+
+CMakeFiles/ggml-cuda.dir/template-instances/mmf-instance-ncols_16.cu.o:
+
+CMakeFiles/ggml-cuda.dir/template-instances/mmf-instance-ncols_2.cu.o:
+
+CMakeFiles/ggml-cuda.dir/template-instances/mmf-instance-ncols_3.cu.o:
+
+CMakeFiles/ggml-cuda.dir/template-instances/mmf-instance-ncols_4.cu.o:
+
+CMakeFiles/ggml-cuda.dir/template-instances/mmf-instance-ncols_5.cu.o:
+
+CMakeFiles/ggml-cuda.dir/template-instances/mmf-instance-ncols_6.cu.o:
+
+CMakeFiles/ggml-cuda.dir/template-instances/mmf-instance-ncols_7.cu.o:
+
+CMakeFiles/ggml-cuda.dir/template-instances/mmf-instance-ncols_8.cu.o:
+
+CMakeFiles/ggml-cuda.dir/template-instances/mmf-instance-ncols_9.cu.o:
+
+CMakeFiles/ggml-cuda.dir/template-instances/fattn-vec-instance-f16-f16.cu.o:
+
+CMakeFiles/ggml-cuda.dir/template-instances/fattn-vec-instance-q4_0-q4_0.cu.o:
+
+CMakeFiles/ggml-cuda.dir/template-instances/fattn-vec-instance-q8_0-q8_0.cu.o:
+
+CMakeFiles/ggml-cuda.dir/template-instances/fattn-vec-instance-bf16-bf16.cu.o:
+
+../../../bin/libggml-base.so.0.9.11:
+
+/home/christ/miniconda3/envs/llama-build/lib/libcudart.so:
+
+/home/christ/miniconda3/envs/llama-build/lib/libcublas.so:
+
+/home/christ/miniconda3/envs/llama-build/targets/x86_64-linux/lib/stubs/libcuda.so:
+
+/home/christ/miniconda3/envs/llama-build/lib/libcublasLt.so:
+
+/home/christ/miniconda3/envs/llama-build/bin/../x86_64-conda-linux-gnu/sysroot/lib/../lib/libdl.a:
+
+/home/christ/miniconda3/envs/llama-build/x86_64-conda-linux-gnu/sysroot/usr/lib/librt.a:
+
+/home/christ/miniconda3/envs/llama-build/lib/libcudadevrt.a:
+
+/home/christ/miniconda3/envs/llama-build/lib/libcudart_static.a:
+
+/home/christ/miniconda3/envs/llama-build/bin/../x86_64-conda-linux-gnu/sysroot/lib/../lib/librt.a:
+
+/home/christ/miniconda3/envs/llama-build/bin/../x86_64-conda-linux-gnu/sysroot/lib/../lib/libpthread.a:
+
+/home/christ/miniconda3/envs/llama-build/bin/../x86_64-conda-linux-gnu/sysroot/lib/../lib/libdl.a:
+
+/home/christ/miniconda3/envs/llama-build/lib/libstdc++.so:
+
+/home/christ/miniconda3/envs/llama-build/bin/../x86_64-conda-linux-gnu/sysroot/lib/../lib/libm.so:
+
+/home/christ/miniconda3/envs/llama-build/bin/../x86_64-conda-linux-gnu/sysroot/lib/../lib/libm.so:
+
+/home/christ/miniconda3/envs/llama-build/bin/../x86_64-conda-linux-gnu/sysroot/lib/../lib/libm.so:
+
+/home/christ/miniconda3/envs/llama-build/bin/../x86_64-conda-linux-gnu/sysroot/lib64/libm.so.6:
+
+/home/christ/miniconda3/envs/llama-build/bin/../x86_64-conda-linux-gnu/sysroot/lib64/libmvec.so.1:
+
+/home/christ/miniconda3/envs/llama-build/lib/libgcc_s.so:
+
+/home/christ/miniconda3/envs/llama-build/lib/libgcc_s.so:
+
+/home/christ/miniconda3/envs/llama-build/lib/libgcc_s.so:
+
+/home/christ/miniconda3/envs/llama-build/lib/libgcc_s.so.1:
+
+/home/christ/miniconda3/envs/llama-build/bin/../lib/gcc/x86_64-conda-linux-gnu/15.2.0/libgcc.a:
+
+/home/christ/miniconda3/envs/llama-build/bin/../x86_64-conda-linux-gnu/sysroot/lib/../lib/libc.so:
+
+/home/christ/miniconda3/envs/llama-build/bin/../x86_64-conda-linux-gnu/sysroot/lib/../lib/libc.so:
+
+/home/christ/miniconda3/envs/llama-build/bin/../x86_64-conda-linux-gnu/sysroot/lib/../lib/libc.so:
+
+/home/christ/miniconda3/envs/llama-build/bin/../x86_64-conda-linux-gnu/sysroot/lib64/libc.so.6:
+
+/home/christ/miniconda3/envs/llama-build/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib64/libc_nonshared.a:
+
+/home/christ/miniconda3/envs/llama-build/bin/../x86_64-conda-linux-gnu/sysroot/lib64/ld-linux-x86-64.so.2:
+
+/home/christ/miniconda3/envs/llama-build/lib/libgcc_s.so:
+
+/home/christ/miniconda3/envs/llama-build/lib/libgcc_s.so:
+
+/home/christ/miniconda3/envs/llama-build/lib/libgcc_s.so:
+
+/home/christ/miniconda3/envs/llama-build/lib/libgcc_s.so.1:
+
+/home/christ/miniconda3/envs/llama-build/bin/../lib/gcc/x86_64-conda-linux-gnu/15.2.0/libgcc.a:
+
+/home/christ/miniconda3/envs/llama-build/bin/../lib/gcc/x86_64-conda-linux-gnu/15.2.0/crtendS.o:
+
+/home/christ/miniconda3/envs/llama-build/bin/../x86_64-conda-linux-gnu/sysroot/lib/../lib/crtn.o:

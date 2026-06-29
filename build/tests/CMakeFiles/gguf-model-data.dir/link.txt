@@ -1,0 +1,2 @@
+/home/christ/miniconda3/envs/llama-build/bin/x86_64-conda-linux-gnu-ar qc libgguf-model-data.a "CMakeFiles/gguf-model-data.dir/gguf-model-data.cpp.o"
+/home/christ/miniconda3/envs/llama-build/bin/x86_64-conda-linux-gnu-ranlib libgguf-model-data.a
